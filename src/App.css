@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  align-items: center;
 }
 
 .attribute {
@@ -27,6 +28,8 @@
 input[type='text'], input[type='number'], select {
   font-family: inherit;
   font-size: inherit;
+  text-align: center;
+  width: 75%;
 }
 
 #screenshot {
@@ -34,4 +37,24 @@ input[type='text'], input[type='number'], select {
   padding: 2vw;
   border-radius: 2em;
   border: 1px solid whitesmoke;
+}
+
+#gallery {
+  background-color: rgba(22, 58, 67, 0.85);
+  padding: 2vw;
+  border-radius: 2em;
+  border: 1px solid whitesmoke;
+  margin: 1em;
+  width: 75vw;
+}
+
+.image {
+  width: 20vw;
+  height: 15vw;
+}
+
+#gallery-images {
+  display: flex;
+  gap: 1vw;
+  flex-wrap: wrap;
 }
